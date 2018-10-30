@@ -2,8 +2,6 @@
 {
     public class Mocha : CondimentDecorator
     {
-        private Beverage _beverage;
-
         public Mocha(Beverage beverage)
         {
             _beverage = beverage;

@@ -6,8 +6,6 @@ namespace DecoratorPattern
 {
     public class Soy : CondimentDecorator
     {
-        private Beverage _beverage;
-
         public Soy(Beverage beverage)
         {
             _beverage = beverage;

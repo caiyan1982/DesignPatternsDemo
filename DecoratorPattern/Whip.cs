@@ -6,8 +6,6 @@ namespace DecoratorPattern
 {
     public class Whip : CondimentDecorator
     {
-        private Beverage _beverage;
-
         public Whip(Beverage beverage)
         {
             _beverage = beverage;
