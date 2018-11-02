@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverPattern", "Observer
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{56B696ED-0624-4864-81F3-1B7980C43804}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodPattern", "FactoryMethodPattern\FactoryMethodPattern.csproj", "{CA2E15F6-90EB-4980-8EC9-239961455373}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethodPattern", "FactoryMethodPattern\FactoryMethodPattern.csproj", "{CA2E15F6-90EB-4980-8EC9-239961455373}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryPattern", "AbstractFactoryPattern\AbstractFactoryPattern.csproj", "{BA821C3E-034B-494C-99FA-5EFBC97BB233}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactoryPattern", "AbstractFactoryPattern\AbstractFactoryPattern.csproj", "{BA821C3E-034B-494C-99FA-5EFBC97BB233}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPattern", "SingletonPattern\SingletonPattern.csproj", "{2D93774D-93C1-48C2-BDED-D8B5A34B3925}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{BA821C3E-034B-494C-99FA-5EFBC97BB233}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA821C3E-034B-494C-99FA-5EFBC97BB233}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA821C3E-034B-494C-99FA-5EFBC97BB233}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D93774D-93C1-48C2-BDED-D8B5A34B3925}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D93774D-93C1-48C2-BDED-D8B5A34B3925}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D93774D-93C1-48C2-BDED-D8B5A34B3925}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D93774D-93C1-48C2-BDED-D8B5A34B3925}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
